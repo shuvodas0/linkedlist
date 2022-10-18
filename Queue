@@ -1,0 +1,27 @@
+#include<stdio.h> 
+void insertion(); void deletion(); void 
+display(); int rear=-1,front=-
+1,max,queue[100]; int main() 
+{ 
+ inti,p; 
+ printf("Enter the size of queue : "); 
+ scanf("%d",&max); 
+for(i=0; ;) 
+ { 
+ printf("\n1.insert\n2.delete\n3.display\n4.exit"); 
+ printf("\nEnter your choice:"); 
+ scanf("%d",&p); 
+ switch(p) 
+ { 
+ case 1: insertion(); 
+ break; 
+ case 2: deletion(); 
+ break; 
+ case 3: display(); 
+ break; 
+ case 4: return 0; 
+ break; 
+ default: printf("\nwrongchoice,try again\n"); 
+ } 
+} 
+} void insertion()
