@@ -1,0 +1,58 @@
+void insertion() 
+{ 
+ if((rear==max-1 && front==0 ) || (rear==front-1)) 
+ { 
+ printf("\nqueue is overflow\n"); 
+ return ; 
+ } 
+ if(front==-1) 
+ { 
+ rear=0; 
+ front=0; 
+ } 
+ else if (front!=0 && rear==max-1) 
+ rear=0; else 
+ rear+=1; 
+ printf("\nEnter the element:"); scanf("%d",&queue[rear]); 
+ printf("\nInsertion successful\n"); 
+} 
+void deletion() 
+{ 
+ inti; if(front==-1) 
+ { 
+ printf("\n queue is underflow\n"); 
+return; 
+} 
+printf("\n %d is deleted successfully\n",queue[front]); if(front==rear) 
+ { 
+ front=-1; rear=-1; 
+ } 
+ else if (front==max-1) 
+ { 
+ front=0; 
+ } 
+ else 
+ { 
+ front+=1; 
+ } 
+ 
+} 
+void display() 
+{ 
+ inti; if(front==-1) 
+ { 
+ printf("\n queue is empty\n"); 
+ return; 
+ } 
+ if(rear>=front) 
+ { 
+ for(i=front;i<=rear;i++) 
+printf("\n%d",queue[i]); } 
+else 
+{ 
+ for(i=front;i<=max-1;i++) 
+ printf("\n%d ",queue[i]); 
+for (i=0;i<=rear;i++) 
+ printf("\n%d",queue[i]); 
+ } 
+} 
