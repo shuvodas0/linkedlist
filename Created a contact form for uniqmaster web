@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Contact Of Uniqmaster</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="main-header">
+
+        <!-- main logo -->
+
+        <a href="https://Uniqmaster.com">
+
+            <img src="image/logo.png" alt="logo">
+
+        </a>
+
+        <!-- navigation bar -->
+
+        <ul class="navbar">
+
+            <li><a href="#">Courses</a></li>
+
+            <li><a href="#">Fields</a></li>
+
+            <li><a href="#">Blog</a></li>
+
+            <li><a href="#">About Us</a></li>
+
+            <li><a href="#">Contact Us</a></li>
+
+        </ul>
+
+        <!-- account section  -->
+
+        <div class="userAc">
+
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+
+            <span>Account</span>
+
+        </div>
+
+        <!-- header button  -->
+
+        <div class="menuBtn">
+
+            <button>Join as a tutor</button>
+
+        </div>
+
+    </div>
+
+        <div class="content">
+
+            <h2>Contact Us</h2>
+
+        </div>
+
+    </header>
+
+</body>
+
+</html>
